@@ -1,1 +1,383 @@
+:root {
+    color-scheme: only light;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(33, 47, 45);
+max-width: 450px;
+width: 100%;
+}
+nav {
+text-align: end;
+}
+li {
+display: inline-block;
+}
+nav ul li a{
+font-size: small;
+text-decoration: none;
+color: rgb(214, 175, 160);
+padding: 0 10px;
+}
+nav ul li a:hover {
+text-shadow: 0 0 10px;
+color: #D6AFA0;
+}
+header {
+background-color: rgb(9, 45, 40);
+width: 100%;
+height: 180px;
+display: flex;
+justify-content: center;
+}
+.content {
+width: 100%;
+}
+.firstcontext, .secondcontext {
+font-weight: bold;
+font-size: 10px;
+background-color: white;
+color: rgb(227, 136, 0);
+margin-top: 10px;
+}
+.firstcontext {
+width: 65%;
+height: 20px;
+text-align: center;
+padding: 4px;
+margin-top: 50px;
+}
+.secondcontext {
+width: 65%;
+height: 20px;
+text-align: center;
+padding: 4px;
+}
+.iconweb {
+height: 23%;
+width: 20%; 
+float: right;
+margin-top: -10%;
+}
+#first-header-button, #second-header-button {
+margin-top: 15px;
+font-weight: bold;
+font-size: 9px;
+background-color: gray;
+border-radius: 9px;
+border: none;
+color: rgb(9, 45, 40);
+}
+#first-header-button {
+height: 15%;
+width: 39%;
+}
+#second-header-button {
+height: 15%;
+width: 25%;
+}
 
+#first-header-button:active, #second-header-button:active {
+color: #d3d3d3;
+box-shadow: 0 0 10px;
+}
+main {
+display: flex;
+justify-content: space-around;
+}
+.barber-photo {
+box-shadow: 0 0 10px black;
+height: 100%;
+width: 100%;
+margin-top: 10px;
+margin-left: 10px;
+}
+.container-for-img {
+border: solid #d3d3d3;
+height: 55%;
+width: 28%;
+display: inline-block;
+}
+.first-main-text {
+margin-left: 40px;
+font-weight: bold;
+color: #D6AFA0;
+}
+.second-main-text {
+font-weight: bold;
+color: #fff;
+margin-left: 10px;
+font-size: 11px;
+float: left;
+width: 228px;
+}
+.third-main-text {
+font-weight: bold;
+color: #fff;
+margin-left: 10px;
+font-size: 11px;
+float: left;
+}
+.study-programmes-text {
+font-size: 14px;
+margin-top: 10px;
+text-align: center;
+color: #D6AFA0;
+font-weight: bold;
+}
+.line-for-tariff-line {
+position: absolute;
+border: gray solid;
+height: 30%;
+width: 60%;
+margin-left: 10%;
+margin-top: -5%;
+z-index: -1;
+}
+.the-tariff-plan {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 20% 10%;
+margin-top: 10px;
+text-align: center;
+}
+.tariff-econom {
+border-radius: 7px;
+padding: 2px;
+font-size: 14px;
+height: 110px;
+width: 130px;
+background-color: #fff;
+}
+.tariff-premium {
+border-radius: 7px;
+height: 110px;
+width: 130px;
+background-color: #fff;
+font-size: 14px;
+padding: 7px 1px;
+}
+#tariff-price-list-button {
+margin-top: 20px;
+font-size: 9px;
+padding: 7px 15px;
+border-radius: 56px;
+border: solid black thin;
+background-color: orange;
+font-weight: bold;
+color: #fff;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.about-course {
+font-size: 13px;
+line-height: 3;
+display: flex;
+width: 100%;
+}
+.about-course h3 {
+color: orange;
+}
+.text-about-course {
+width: 70%;
+}
+.about-course ul li {
+color: #fff;
+margin-left: 10px;
+}
+#Model_1 {
+box-shadow: 0 0 10px black;
+height: 120px;
+width: 105px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.frame-for-Model_1 {
+height: 120px;
+width: 105px;
+margin-top: 10%;
+border: solid #d3d3d3;
+display: inline-block;
+}
+.text-for-upper {
+color: #D6AFA0;
+text-align: center;
+margin-top: 20px;
+}
+.upping-qualification-of-barber {
+margin-top: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.study-programmes-upper {
+border: #d3d3d3 solid;
+height: 200px;
+width: 65%;
+position: absolute;
+z-index: -1;
+}
+.container-for-upping-qualification {
+height: auto;
+width: 100px;
+background-color: #fff;
+flex: 1 1 auto;
+margin: 0 5px;
+text-align: center;
+font-size: 12px;
+padding: 5px;
+}
+.info-about-clients {
+margin-top: 70px;
+display: flex;
+justify-content: space-around;
+}
+.info-about-clients img {
+    box-shadow: 0 0 10px black;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container-for-model2 {
+    border: solid #d3d3d3;
+    height: auto;
+    width: 28%;
+    height: 130px;
+    display: inline-block;
+}
+.text-about-clients {
+    text-align: center;
+    width: 55%;
+}
+.h5-n1 {
+    color: orange;
+}
+.h5-n2 {
+    margin-top: 5px;
+    color: #D6AFA0;
+}
+.h5-n3 {
+    color: #D6AFA0;
+    margin-top: 5px;
+}
+.text-about-clients h6 {
+    color: #FFF;
+    margin-top: 5px;
+}
+.upping-skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+.text-for-upping-skills {
+    width: 50%;
+    color: #fff;
+}
+.img-for-upping-skills {
+    border: solid #d3d3d3;
+    height: auto;
+    width: 28%;
+    height: 130px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.img-for-upping-skills img {
+    height: 100%;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.button-for-register {
+    margin-top: 10%;
+    font-size: 11px;
+    color: #FFF;
+    text-align: center;
+}
+.button-for-register h4 {
+    margin-top: 5px;
+}
+.button-for-register p {
+    padding: 2px
+}
+.button-for-register button {
+    margin-top: 5%;
+    width: 50%;
+    height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #E27C4A;
+    user-select: none;
+    background-color: #D9D9D9;
+    text-align: center;
+    border-radius: 10px;
+}
+.button-for-register button:active {
+    background-color: aliceblue;
+}
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+}
+.img-box {
+    width: 15%;
+    height: 60px;
+    background-color: #d3d3d3;
+    margin: 10px;
+}
+.container-for-right-Line {
+    display: flex;
+    justify-content: center;
+}
+.right-Line {
+    height: 10px;
+    width: 80%;
+    background-color: #fff;
+    margin: 10px 0;
+}
+.footer-Photo-Models {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container {
+    margin: 0 10px;
+    height: 50px;
+    margin-top: 10px;
+}
+.image-container img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+footer {
+text-align: center;
+color: #fff;
+padding-top: 15px; 
+font-size: small;
+}
+.iconstyles {
+    display: flex;
+    justify-content: center;
+}
+
+.AllIcon {
+    height: 36px;
+    width: 40px;
+    padding: 0 10px;
+    padding-top: 12px;
+}
+
+.AllIcon:active {
+    height: 40px;
+    width: 44px;
+}

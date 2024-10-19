@@ -73,9 +73,14 @@ header {
     border: none;
 }
 #first-header-button {
-    color: rgb(9, 45, 40);
     height: 15%;
     width: 39%;
+}
+#first-header-button a {
+    height: 15%;
+    width: 39%;
+    color: rgb(9, 45, 40);
+    text-decoration: none;
 }
 #second-header-button {
     height: 15%;

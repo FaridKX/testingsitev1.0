@@ -1,0 +1,75 @@
+body {
+  background-color: #1a372a;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a372a;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  max-width: 270px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: rgba(227, 136, 0, 1);
+  margin-bottom: 10px;
+}
+
+h2 .double {
+  color: rgba(227, 136, 0, 1);
+  margin-bottom: 17px;
+}
+
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #e0c694;
+}
+
+input[type="text"]:hover,
+input[type="tel"]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus {
+  outline: none;
+  border-color: #e0c694;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 11px 27px;
+  background-color: rgba(226, 124, 74, 1);
+  color: #fff;
+  border: none;
+  border-radius: 56px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+  background-color: #ac8600;
+}

@@ -71,7 +71,6 @@ header {
     background-color: gray;
     border-radius: 9px;
     border: none;
-    cursor: pointer;
 }
 #first-header-button {
     color: rgb(9, 45, 40);
@@ -85,8 +84,6 @@ header {
 #second-header-button a {
     text-decoration: none;
     color: rgb(9, 45, 40);
-    display: inline-block;
-    position: relative;
     z-index: 1;
 }
 

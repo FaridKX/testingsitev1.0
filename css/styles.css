@@ -71,11 +71,12 @@ header {
     background-color: gray;
     border-radius: 9px;
     border: none;
+    cursor: pointer;
 }
 #first-header-button {
+    color: rgb(9, 45, 40);
     height: 15%;
     width: 39%;
-    cursor: pointer;
 }
 #second-header-button {
     height: 15%;
@@ -87,8 +88,6 @@ header {
     display: inline-block;
     position: relative;
     z-index: 1;
-    padding: 2em;
-    margin: -2em;
 }
 
 #first-header-button:active, #second-header-button:active {
@@ -328,6 +327,7 @@ main {
     text-align: center;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 .button-for-register button:active {
     background-color: aliceblue;
@@ -383,13 +383,13 @@ font-size: small;
 }
 
 .AllIcon {
-    height: 35px;
-    width: 40px;
+    height: 40px;
+    width: 47px;
     padding: 0 10px;
     padding-top: 12px;
 }
 
 .AllIcon:hover {
-    height: 40px;
-    width: 45px;
+    height: 47px;
+    width: 54px;
 }

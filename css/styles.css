@@ -51,6 +51,7 @@ header {
     margin-top: -10%;
 }
 #first-header-button, #second-header-button {
+    margin-left: 2%;
     margin-top: 15px;
     font-weight: bold;
     font-size: 9px;
@@ -60,7 +61,6 @@ header {
     cursor: pointer;
 }
 #first-header-button {
-    margin-left: 3%;
     color: rgb(9, 45, 40);
     height: 15%;
     width: 39%;
@@ -422,4 +422,3 @@ font-size: small;
     75%{ transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)}
     100%{ transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)}
 }
-

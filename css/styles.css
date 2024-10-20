@@ -12,22 +12,6 @@ body {
     max-width: 450px;
     width: 100%;
 }
-nav {
-    text-align: end;
-}
-li {
-    display: inline-block;
-}
-nav ul li a{
-    font-size: small;
-    text-decoration: none;
-    color: rgb(214, 175, 160);
-    padding: 0 10px;
-}
-nav ul li a:hover {
-    text-shadow: 0 0 10px;
-    color: #D6AFA0;
-}
 header {
     background-color: rgb(9, 45, 40);
     width: 100%;
@@ -44,6 +28,7 @@ header {
     background-color: white;
     color: rgb(227, 136, 0);
     margin-top: 10px;
+    margin-left: 3%;
 }
 .firstcontext {
     width: 65%;
@@ -59,6 +44,7 @@ header {
     padding: 4px;
 }
 .iconweb {
+    margin-right: 2%;
     height: 23%;
     width: 20%; 
     float: right;
@@ -71,16 +57,13 @@ header {
     background-color: gray;
     border-radius: 9px;
     border: none;
+    cursor: pointer;
 }
 #first-header-button {
-    height: 15%;
-    width: 39%;
-}
-#first-header-button a {
-    height: 15%;
-    width: 39%;
+    margin-left: 3%;
     color: rgb(9, 45, 40);
-    text-decoration: none;
+    height: 15%;
+    width: 39%;
 }
 #second-header-button {
     height: 15%;
@@ -89,6 +72,8 @@ header {
 #second-header-button a {
     text-decoration: none;
     color: rgb(9, 45, 40);
+    display: inline-block;
+    position: relative;
     z-index: 1;
 }
 
@@ -300,6 +285,7 @@ main {
     display: inline-block;
 }
 .img-for-upping-skills img {
+    box-shadow: 0 0 10px black;
     height: 100%;
     width: 100%;
     margin-top: -10px;
@@ -321,11 +307,9 @@ main {
     margin-top: 5%;
     width: 50%;
     height: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #E27C4A;
-    user-select: none;
     background-color: #D9D9D9;
+    color: #E27C4A;
+    font-weight: bold;
     text-align: center;
     border-radius: 10px;
     border: none;
@@ -395,3 +379,47 @@ font-size: small;
     height: 47px;
     width: 54px;
 }
+#container-for-element {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 47, 45);
+    height: 100vh;
+}
+  #loader {
+    position: absolute;
+    display: none;
+    width: 164px;
+    height: 164px;
+}
+    #loader::before , #loader::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #56951c;
+    left: 50%;
+    top: 50%;
+    animation: rotate 1s ease-in infinite;
+}
+  #loader::after {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(227, 136, 0, 1);;
+    animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite ;
+}
+  
+  @keyframes moveY {
+    0% , 100% {top: 10%}
+    45% , 55% {top: 59%}
+    60% {top: 40%}
+}
+  @keyframes rotate {
+    0% { transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)}
+    25%{ transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)}
+    45% , 55%{ transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)}
+    60%{ transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)}
+    75%{ transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)}
+    100%{ transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)}
+}
+

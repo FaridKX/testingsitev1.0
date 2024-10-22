@@ -35,7 +35,7 @@ header {
     height: 20px;
     text-align: center;
     padding: 4px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .secondcontext {
     width: 65%;
@@ -52,7 +52,7 @@ header {
 }
 #first-header-button, #second-header-button {
     margin-left: 2%;
-    margin-top: 3%;
+    margin-top: 7%;
     font-weight: bold;
     font-size: 9px;
     background-color: gray;
@@ -143,6 +143,8 @@ main {
     text-align: center;
 }
 .tariff-econom {
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
     padding: 2px;
     font-size: 14px;
     height: 110px;
@@ -150,6 +152,8 @@ main {
     background-color: #fff;
 }
 .tariff-premium {
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
     height: 110px;
     width: 130px;
     background-color: #fff;
@@ -220,6 +224,8 @@ main {
     z-index: -1;
 }
 .container-for-upping-qualification {
+    border-radius: 5px;
+    box-shadow: 0 0 7px gray;
     height: auto;
     width: 100px;
     background-color: #fff;
@@ -369,15 +375,15 @@ font-size: small;
 }
 
 .AllIcon {
-    height: 40px;
-    width: 47px;
+    height: 55px;
+    width: 57px;
     padding: 0 10px;
     padding-top: 12px;
 }
 
-.AllIcon:hover {
-    height: 47px;
-    width: 54px;
+.AllIcon:active {
+    height: 59px;
+    width: 61px;
 }
 #container-for-element {
     display: none;

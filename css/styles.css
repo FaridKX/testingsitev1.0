@@ -48,7 +48,6 @@ header {
     height: 23%;
     width: 20%; 
     float: right;
-    margin-top: -10%;
 }
 #first-header-button, #second-header-button {
     margin-left: 2%;
@@ -375,7 +374,7 @@ font-size: small;
 }
 
 .AllIcon {
-    height: 55px;
+    height: 50px;
     width: 57px;
     padding: 0 10px;
     padding-top: 12px;

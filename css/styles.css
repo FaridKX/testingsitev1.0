@@ -38,6 +38,7 @@ header {
     margin-top: 30px;
 }
 .secondcontext {
+    position: absolute;
     width: 65%;
     height: 20px;
     text-align: center;
@@ -51,7 +52,7 @@ header {
 }
 #first-header-button, #second-header-button {
     margin-left: 2%;
-    margin-top: 7%;
+    margin-top: 10%;
     font-weight: bold;
     font-size: 9px;
     background-color: gray;
@@ -427,3 +428,4 @@ font-size: small;
     75%{ transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)}
     100%{ transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)}
 }
+

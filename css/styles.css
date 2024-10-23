@@ -117,27 +117,15 @@ main {
     color: #D6AFA0;
     font-weight: bold;
 }
-.line-for-tariff-line {
-    position: absolute;
-    border: gray solid;
-    height: 200px;
-    width: 60%;
-    margin-left: 10%;
-    margin-top: -7%;
-    z-index: -1;    
-}
 .the-tariff-plan {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20% 10%;
+    justify-content: center;
     margin-top: 10px;
     text-align: center;
 }
 .tariff-econom {
     border-radius: 5px;
     box-shadow: 0 0 10px gray;
-    padding: 2px;
     font-size: 14px;
     height: 110px;
     width: 130px;
@@ -152,14 +140,23 @@ main {
     font-size: 14px;
     padding: 7px 1px;
 }
+.tariff-econom, .tariff-premium {
+    margin: 0 15px;
+}
+.container-for-tariff-buttons {
+    display: flex;
+    justify-content: center;
+}
 #tariff-price-list-button {
+    margin: 0 25px;
     margin-top: 20px;
-    font-size: 9px;
-    padding: 7px 15px;
+    border-radius: 56px;
+    padding: 6px 8px;
+    border: none;
+    background-color: #E27C4A;
+    box-shadow: 0 0 7px black;
     font-weight: bold;
     color: #fff;
-    background-color: #E27C4A;
-    border: none;
     border-radius: 56px;
 }
 #tariff-price-list-button:hover {
@@ -204,17 +201,10 @@ main {
 .upping-qualification-of-barber {
     margin-top: 60px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
-}
-.study-programmes-upper {
-    border: #d3d3d3 solid;
-    height: 200px;
-    width: 65%;
-    position: absolute;
-    z-index: -1;
-}
 .container-for-upping-qualification {
     border-radius: 5px;
     box-shadow: 0 0 7px gray;
@@ -226,6 +216,17 @@ main {
     text-align: center;
     font-size: 12px;
     padding: 5px;
+}
+.upping-qualification-of-barber button {
+    margin-top: 15px;
+    border-radius: 56px;
+    padding: 6px 8px;
+    border: none;
+    background-color: #E27C4A;
+    box-shadow: 0 0 7px black;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 56px;
 }
 .info-about-clients {
     margin-top: 70px;

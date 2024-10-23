@@ -38,7 +38,6 @@ header {
     margin-top: 30px;
 }
 .secondcontext {
-    position: absolute;
     width: 65%;
     height: 20px;
     text-align: center;
@@ -52,7 +51,7 @@ header {
 }
 #first-header-button, #second-header-button {
     margin-left: 2%;
-    margin-top: 10%;
+    margin-top: 7%;
     font-weight: bold;
     font-size: 9px;
     background-color: gray;
@@ -68,15 +67,8 @@ header {
 #second-header-button {
     height: 15%;
     width: 25%;
-}
-#second-header-button a {
-    text-decoration: none;
     color: rgb(9, 45, 40);
-    display: inline-block;
-    position: relative;
-    z-index: 1;
 }
-
 #first-header-button:active, #second-header-button:active {
     color: #d3d3d3;
     box-shadow: 0 0 10px;
@@ -428,4 +420,3 @@ font-size: small;
     75%{ transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)}
     100%{ transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)}
 }
-

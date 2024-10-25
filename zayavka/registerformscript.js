@@ -26,11 +26,19 @@ document.getElementById('registerForm').onsubmit = function(event) {
 
 function validatePhoneNumber(phone) {
     let trimmedPhone = phone.trim();
-    if (trimmedPhone.length <= 10) {
-        return "Ошибка: номер телефона должен содержать более 10 символов.";
+    if (trimmedPhone.length <= 11) {
+        return "Ошибка: Номер телефона должен содержать более 10 символов.";
     }
     if (!trimmedPhone.startsWith('+79')) {
-        return "Ошибка: номер телефона должен начинаться с +79.";
+        return "Ошибка: Номер телефона должен начинаться с +79.";
     }
     return true;
 }
+window.onload = function() {
+    const pole = document.querySelector('.pole');
+    pole.style.opacity = '1';
+    
+    setTimeout(() => {
+        pole.style.display = 'none';
+    }, 2024);
+};

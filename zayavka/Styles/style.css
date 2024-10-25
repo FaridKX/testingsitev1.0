@@ -82,7 +82,7 @@ button:active {
 .pole {
   justify-content: center;
   align-items: center;
-  background-color: #ffffff71;
+  background-color: #ffffff95;
   display: flex;
   width: 100%;
   height: 100%;
@@ -90,33 +90,9 @@ button:active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.3;
-  z-index: 2; 
+  opacity: 1;
+  z-index: 2; /* Задать z-index, чтобы находилась над контентом */
 }
-
-.stripe {
-  background-color: #ffffff71;
-  position: absolute;
-  width: 50px;
-  border-radius: 5px;
-  height: 50px;
-  animation: spin 2s linear infinite;
-}
-
-.red { background: red; }
-.white { background: white; }
-.blue { background: blue; }
-
-.red { animation-delay: 0s; }
-.white { animation-delay: 0.2s; }
-.blue { animation-delay: 0.4s; }
-
-@keyframes spin {
-  0% { transform: translateY(100%); }
-  100% { transform: translateY(-100%); }
-}
-#registerForm {
-  position: relative;
-  z-index: 1; 
-  text-align: center;
+.no_border {
+  box-shadow: none;
 }

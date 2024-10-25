@@ -36,3 +36,19 @@ numberbarber.addEventListener('click', ()=> {
 document.getElementById('registerBtn').addEventListener('click', function() {
     window.location.href = 'zayavka/register.html';
 });
+
+function lockScroll() {
+    document.body.classList.add('lock-scroll');
+}
+function unlockScroll() {
+    document.body.classList.remove('lock-scroll');
+}
+window.onload = function() {
+    const pole = document.querySelector('.pole');
+    lockScroll();
+    
+    setTimeout(() => {
+        pole.style.display = 'none';
+        unlockScroll();
+    }, 2024);
+};

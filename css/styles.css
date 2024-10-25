@@ -110,6 +110,13 @@ main {
     font-size: 11px;
     float: left;
 }
+.study-programmes-upper {
+    width: 85%;
+    height: 135px;
+    border: solid gray;
+    position: absolute;
+    z-index: -1;
+}
 .study-programmes-text {
     font-size: 14px;
     margin-top: 10px;
@@ -159,9 +166,17 @@ main {
     color: #fff;
     border-radius: 56px;
 }
-#tariff-price-list-button:hover {
+#tariff-price-list-button:active {
     background-color: #f7bc47;
     box-shadow: 2px #d4971b;
+    text-shadow: 0 0 10px white;
+}
+.line-for-tariff-line {
+    width: 60%;
+    height: 150px;
+    border: solid gray;
+    position: absolute;
+    z-index: -1;
 }
 .about-course {
     font-size: 13px;
@@ -227,6 +242,11 @@ main {
     font-weight: bold;
     color: #fff;
     border-radius: 56px;
+}
+.upping-qualification-of-barber button:active {
+    background-color: #f7bc47;
+    box-shadow: 2px #d4971b;
+    text-shadow: 0 0 10px white;
 }
 .info-about-clients {
     margin-top: 70px;
@@ -315,7 +335,8 @@ main {
     cursor: pointer;
 }
 .button-for-register button:active {
-    background-color: aliceblue;
+    background-color: #e27d4a87;
+    color: rgba(255, 255, 255, 0.8);
 }
 .img-container {
     display: flex;
@@ -368,15 +389,15 @@ font-size: small;
 }
 
 .AllIcon {
-    height: 50px;
-    width: 57px;
+    height: 47px;
+    width: 54px;
     padding: 0 10px;
     padding-top: 12px;
 }
 
 .AllIcon:active {
-    height: 59px;
-    width: 61px;
+    height: 52px;
+    width: 59px;
 }
 #container-for-element {
     display: none;
@@ -384,40 +405,4 @@ font-size: small;
     align-items: center;
     background-color: rgb(33, 47, 45);
     height: 100vh;
-}
-  #loader {
-    position: absolute;
-    display: none;
-    width: 164px;
-    height: 164px;
-}
-    #loader::before , #loader::after {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: #56951c;
-    left: 50%;
-    top: 50%;
-    animation: rotate 1s ease-in infinite;
-}
-  #loader::after {
-    width: 20px;
-    height: 20px;
-    background-color: rgba(227, 136, 0, 1);;
-    animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite ;
-}
-  
-  @keyframes moveY {
-    0% , 100% {top: 10%}
-    45% , 55% {top: 59%}
-    60% {top: 40%}
-}
-  @keyframes rotate {
-    0% { transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)}
-    25%{ transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)}
-    45% , 55%{ transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)}
-    60%{ transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)}
-    75%{ transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)}
-    100%{ transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)}
 }
